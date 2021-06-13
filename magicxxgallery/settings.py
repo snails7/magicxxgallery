@@ -54,7 +54,7 @@ ROOT_URLCONF = 'magicxxgallery.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'front', 'templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
